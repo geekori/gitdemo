@@ -1,0 +1,4 @@
+Git编辑器
+
+git config --global core.editor emacs
+

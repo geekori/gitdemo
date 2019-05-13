@@ -1,0 +1,23 @@
+创建和获取Git仓库
+
+创建Git项目
+1. 导入原有的项目
+2. 从Git服务器上克隆项目
+
+1. 导入原有的项目
+
+(1) 初始化Git本地仓库
+
+git init
+
+(2) 缓存需要跟踪的文件
+git add files
+
+git add *.py
+
+(3) 将缓存的文件提交到本地仓库
+git commit -m 'Initial python project'
+
+2. 从Git服务器克隆项目
+
+git clone https://github.com/geekori/seaborn.git myseaborn

@@ -1,0 +1,13 @@
+跟踪新文件
+
+
+git add files or directories
+
+
+如果git add后面跟的是目录，那么会递归将目录中所有的文件进行缓存
+
+目录中必须至少有一个文件，否则git是不会处理的
+
+
+
+git commit
