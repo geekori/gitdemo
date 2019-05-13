@@ -1,0 +1,17 @@
+安装Git
+
+Windows、macOS和Linux
+
+macOS
+
+brew install git
+
+
+
+
+
+
+
+
+
+

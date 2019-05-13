@@ -1,0 +1,29 @@
+用户身份设置
+
+1. /etc/gitconfig
+2. ~/.gitconfig或~/.config/git/config
+3. 针对于某一个git项目， .git/config
+
+git config
+
+查看指定的配置
+git config --global user.name
+
+查看所有的配置
+git config --list
+
+设置特定的配置
+git config --global user.name "ok"
+
+
+如果不加--global，就会设置当前git工程的.git/config
+git config  user.name "ok"
+
+git config --list
+
+Windows：$HOME/.gitconfig
+
+
+
+
+

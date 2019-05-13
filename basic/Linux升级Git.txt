@@ -1,0 +1,9 @@
+在Linux下升级Git
+
+wget https://www.kernel.org/pub/software/scm/git/git-xxxx.tar.xz
+tar -vxf git-xxxx.tar.xz
+cd git-xxxx
+make prefix=/usr/local/git all
+make prefix=/usr/local/git install
+echo "export PATH=$PATH:/usr/local/git/bin" >> /etc/profile
+source /etc/profile
