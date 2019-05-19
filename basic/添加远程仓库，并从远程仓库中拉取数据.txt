@@ -1,0 +1,10 @@
+添加远程仓库，并从远程仓库中拉取数据
+
+git remote add name url
+
+git remote add pe https://github.com/geekori/pyecharts.git
+
+
+git fetch name  只将远程的数据拉取到本地的仓库，需要手工进行合并
+
+git clone

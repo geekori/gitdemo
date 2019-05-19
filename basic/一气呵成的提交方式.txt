@@ -1,0 +1,10 @@
+一气呵成的提交方式
+
+a.txt
+
+git add a.txt
+
+git commit -m 'a.txt'
+
+git commit -a -m '....'
+git commit -a

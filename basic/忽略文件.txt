@@ -1,0 +1,20 @@
+忽略文件
+
+.o、a.
+
+在git工程根目录创建一个.gitignore文件
+
+忽略文件只作用域添加规则之后的文件
+
+如果制定.gitignore文件中过滤规则
+
+1. 注释：通过#添加注释
+2. 空行都会被忽略
+3. 支持glob模式（操作系统经常使用的匹配模式）
+https://en.wikipedia.org/wiki/Glob(programming)
+4. /开头禁止递归匹配
+5. 以斜杠结尾的模式表示目录
+6. 感叹号!开头的模式表示取反
+
+一些标准的匹配模式
+https://github.com/github/gitignore

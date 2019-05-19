@@ -1,0 +1,11 @@
+提交变更
+
+git commit
+
+git commit -m 'new commit'
+
+git commit
+
+git config --global core.editor emacs
+
+emacs退出的方法：esc + . + ctrl-x  ctrl-c

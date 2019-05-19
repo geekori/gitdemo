@@ -1,0 +1,28 @@
+限制提交历史的输出范围
+
+git log
+
+--since：显示某一个时间点到现在所有的提交历史
+
+git log --since=2.weeks
+
+git log --since="2019-5-18"
+
+git log --since="1 year day 3 minutes ago"
+
+
+git log -Sstring：列出所有添加或删除包含string的提交记录
+
+--grep
+
+git log --grep="demo"：列出所有摘要中包含demo的提交记录
+
+git log支持的常用过滤命令行参数
+1. -(n)：只显示最新的n次提交
+2. --since,--after：只输出指定日期之后的提交
+3. --until,--before：只输出指定日期之前的提交
+4. --author：只输出作者与指定字符串匹配的提交
+5. --committer：只输出提交者与指定字符串匹配的提交
+6. --grep：只输出提交信息包含指定字符串的提交
+7. -S：只输出包含添加或删除指定字符串的更改的提交
+

@@ -1,0 +1,12 @@
+查看变更细节
+
+git status
+
+
+git add demo01.py
+
+git diff：用于查看未存放在暂存区的文件的差异
+
+git diff --staged：用于查看已经存放在暂存区的文件的差异
+
+--cached

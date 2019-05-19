@@ -1,0 +1,6 @@
+撤销操作
+
+git commit
+
+git commit --amend -m 'string'
+

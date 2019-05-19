@@ -1,0 +1,14 @@
+移除文件
+
+
+如果直接使用rm命令移除文件，需要使用git add在暂存区做标注
+
+rm readme.txt
+
+git add readme.txt
+
+git commit -m 'readme.txt'
+
+
+git rm readme.txt
+git commit -m 'readme.txt'
