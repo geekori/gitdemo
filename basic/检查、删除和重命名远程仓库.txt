@@ -1,0 +1,19 @@
+检查、删除和重命名远程仓库
+
+检查远程仓库
+
+git remote show remote-name
+
+重命名远程仓库
+git remote rename origin abc
+
+git push abc master
+
+删除远程仓库
+
+
+git remote rm remote-name
+
+
+添加远程仓库
+git remote add remote-name remote-url

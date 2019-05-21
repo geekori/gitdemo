@@ -1,0 +1,8 @@
+将数据推送到远程仓库
+
+添加文件（hello.txt）、或删除、修改
+
+git add hello.txt  添加到暂存区
+git commit -m 'add hello.txt'  将暂存区的文件提交到本地仓库
+git push origin master  将本地仓库没有提交过的文件提交到远程版本库
+
